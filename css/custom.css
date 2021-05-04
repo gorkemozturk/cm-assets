@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700");
+
+ // hide bootstrap dropdown arrow globally
+ .dropdown-toggle::after {
+   display: none !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.progress-modal {
+  height: 3px;
+  width: 100%;
+}
